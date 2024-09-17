@@ -88,7 +88,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap");
 
 :root {
-	--font-1: "Roboto Flex", sans-serif;
+	--font-1: "Papyrus", sans-serif; /* Roboto Flex */ 
 	--font-2: "DM Serif Display", Serif;
 
   /* monospace
@@ -3631,7 +3631,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-	font-size    : clamp(5rem, 7vw, 11.6rem);
+	font-size    : clamp(5rem, 5vw, 11.6rem);
 	line-height  : 1;
 	margin-top   : 0;
 	margin-bottom: var(--vspace-1_25);
@@ -3854,7 +3854,7 @@ td:last-child {
 	}
 
 	.s-intro__content-title {
-		font-size: clamp(4rem, 10vw, 10.4rem);
+		font-size: clamp(4rem, 6vw, 10.4rem);
 	}
 
 	.s-intro__content-title br {
